@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style_personalization.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Мой аккаунт</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <script src="https://kit.fontawesome.com/1e208ddfcb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header_inner">
+                <a class="header_logo nav_link" href="index.html">Gustum</a>
+
+                <nav class="nav" id="nav">
+                    <a class="nav_link" href="perfumes.html">Парфюм</a>
+                    <a class="nav_link" href="about.html">О нас</a>
+                    <a class="nav_link" href="personalization.html">Мой аккаунт</a>
+                    <a class="nav_link" href="contact.html">Связаться с нами</a>
+                </nav>
+                <button class="nav-toggle" id="nav_toggle" type="button">
+                    <span class="nav-toggle_item" >menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="personalization" id="intro">
+        <div class="container_personalization">
+            <div class="welcome"><h1>Welcome</h1></div>
+            <div class="identification">
+                <div class="login">
+                    <h2 class="">Логин</h2>
+                    <form class="form" method="post" action="">
+                        <p>Пожалуйста, введите имя пользователя и пароль, чтобы подключиться к своей учетной записи.</p>
+                        <h3>Имя пользователя</h3>
+                        <input class="input_form" type="text" name="username" placeholder="Логин" >
+                        <h3>Пароль</h3>
+                        <input class="input_form" type="password" name="password" placeholder="Пароль">
+                        <p></p>
+                        <button class="log_btn" type="submit">Log in</button>
+                        <a class="lost_password" href="lost_password.html">Забыли пароль?</a>
+                    </form>
+                </div>
+                <div class="register">
+                    <h2 class="">Регистрация</h2>
+                    <form class="form" method="post" class="register">
+                        <p>Погрузитесь во вселенную Gustum и получайте последние новости о наших новинках и событиях.</p>
+                        <h3>Email адрес</h3>
+                        <input class="input_form" type="email"name="email" placeholder="Email">
+                        <h3>Пароль</h3>
+                        <input class="input_form" type="password" name="password" placeholder="Пароль">
+                        <p></p>
+                        <button class="log_btn" type="submit">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

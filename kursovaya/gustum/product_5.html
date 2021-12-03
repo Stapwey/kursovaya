@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style_perfumes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Парфюм</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <script src="https://kit.fontawesome.com/1e208ddfcb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header_inner">
+                <a class="header_logo nav_link" href="index.html">Gustum</a>
+
+                <nav class="nav" id="nav">
+                    <a class="nav_link" href="perfumes.html">Парфюм</a>
+                    <a class="nav_link" href="about.html">О нас</a>
+                    <a class="nav_link" href="personalization.html">Мой аккаунт</a>
+                    <a class="nav_link" href="contact.html">Связаться с нами</a>
+                </nav>
+                <button class="nav-toggle" id="nav_toggle" type="button">
+                    <span class="nav-toggle_item" >menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="perfumes">
+        <div class="container">
+            <div class="product_item">
+                <div class="product_inner">
+                    <div><img class="product" src="assets/images/perfumes/product/product5.jpg" alt=""></div>
+                    <div class="product_text">
+                        <h2 class="product_name">amber sky</h2>
+                        <p class="sub_name">Янтарный Сон</p>
+                        <ul class="details">
+                            <li> 
+                                <input type="radio" name="section" id="section_0" checked="checked"> 
+                                <label for="section_0">Аромат</label>
+                                <div style="height: 400px;">
+                                    <div>
+                                        <p>Элегантность великолепного янтаря, утонченная до глубины души. Воспоминания о похотливом закате на высотах Босфора, между Востоком и Западом.</p>
+                                        <p>Вертикальность бергамота сублимирует его древесные ноты кедра, сандалового дерева и ванили.</p>
+                                        <p>Его мощное дыхание раскрывает свою красоту в навязчивом восхождении на грани чувственности.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li> 
+                                <input type="radio"  name="section" id="section_1">
+                                <label for="section_1">Обонятельные ноты</label>
+                                <div style="height: 290px;">
+                                    <div>
+                                        <p><strong>Верх</strong>
+                                            <br> Бергамот, Семена Кориандра
+                                        </p>
+                                        <p><strong>Сердце</strong>
+                                            <br> Мускатный Орех, Герань
+                                        </p>
+                                        <p><strong>База</strong>
+                                            <br> Амбра, Кедр, Смоляная Ваниль
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li> 
+                                <input type="radio" name="section" id="section_2"> 
+                                <label for="section_2">Создано OLIVIER PESCHEUX</label>
+                                <div style="height: 190px;">
+                                    <div>
+                                        <p>Признанный за его уникальные ноу-хау и навыки, Оливье начал свою карьеру в качестве дизайнера парфюмерии в 1998 году. За креативность и амбициозность он был удостоен премии «Le Prix International du Parfum» в 2010 году.</p>  
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
